@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C8160EE3-8790-429E-B027-A0BAE378B1A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Klijent</RootNamespace>
+    <AssemblyName>Klijent</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Communication\Communication.cs" />
+    <Compile Include="Communication\CommunicationUtil.cs" />
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegister.Designer.cs">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuiController\JeloGuiController.cs" />
+    <Compile Include="GuiController\LoginGuiController.cs" />
+    <Compile Include="GuiController\MainCoordinator.cs" />
+    <Compile Include="GuiController\NamirnicaGuiController.cs" />
+    <Compile Include="GuiController\ReceptGuiController.cs" />
+    <Compile Include="JeloMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JeloMainForm.Designer.cs">
+      <DependentUpon>JeloMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NamirnicaMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NamirnicaMainForm.Designer.cs">
+      <DependentUpon>NamirnicaMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceptMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceptMainForm.Designer.cs">
+      <DependentUpon>ReceptMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MockUpComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCIzmenaJela.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCIzmenaJela.Designer.cs">
+      <DependentUpon>UCIzmenaJela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCIzmenaNamirnice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCIzmenaNamirnice.Designer.cs">
+      <DependentUpon>UCIzmenaNamirnice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCIzmenaRecepta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCIzmenaRecepta.Designer.cs">
+      <DependentUpon>UCIzmenaRecepta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCLogin.Designer.cs">
+      <DependentUpon>UCLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCMain.Designer.cs">
+      <DependentUpon>UCMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCNamirnicaMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCNamirnicaMain.Designer.cs">
+      <DependentUpon>UCNamirnicaMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCPrikazJela.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCPrikazJela.Designer.cs">
+      <DependentUpon>UCPrikazJela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCPrikazNamirnica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCPrikazNamirnica.Designer.cs">
+      <DependentUpon>UCPrikazNamirnica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCPrikazRecepata.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCPrikazRecepata.Designer.cs">
+      <DependentUpon>UCPrikazRecepata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCUnosJela.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCUnosJela.Designer.cs">
+      <DependentUpon>UCUnosJela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCUnosNamirnice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCUnosNamirnice.Designer.cs">
+      <DependentUpon>UCUnosNamirnice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCUnosRecepta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCUnosRecepta.Designer.cs">
+      <DependentUpon>UCUnosRecepta.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegister.resx">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JeloMainForm.resx">
+      <DependentUpon>JeloMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NamirnicaMainForm.resx">
+      <DependentUpon>NamirnicaMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ReceptMainForm.resx">
+      <DependentUpon>ReceptMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCIzmenaJela.resx">
+      <DependentUpon>UCIzmenaJela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCIzmenaNamirnice.resx">
+      <DependentUpon>UCIzmenaNamirnice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCIzmenaRecepta.resx">
+      <DependentUpon>UCIzmenaRecepta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCLogin.resx">
+      <DependentUpon>UCLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCMain.resx">
+      <DependentUpon>UCMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCNamirnicaMain.resx">
+      <DependentUpon>UCNamirnicaMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCPrikazJela.resx">
+      <DependentUpon>UCPrikazJela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCPrikazNamirnica.resx">
+      <DependentUpon>UCPrikazNamirnica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCPrikazRecepata.resx">
+      <DependentUpon>UCPrikazRecepata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCUnosJela.resx">
+      <DependentUpon>UCUnosJela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCUnosNamirnice.resx">
+      <DependentUpon>UCUnosNamirnice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCUnosRecepta.resx">
+      <DependentUpon>UCUnosRecepta.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{CDF05E6E-4D98-4D82-8330-96B1C28704CC}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Server\Server.csproj">
+      <Project>{E9050FAD-DF54-434D-96E6-F27FADD5C1EF}</Project>
+      <Name>Server</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\107-1070273_green-background-vector-png-portable-network-graphics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-fresh-and-stylish-background-green-lines-background-green-background-pictures-fresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fashionable-business-card-design-5a3bcec5d5ed14.0890598015138689978763.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinepngtools %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cooking-Recipe-PNG-Download-Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-green-chat-bubble-icon-png-image_4754359.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\89-893814_green-clipart-speech-bubble-green-speech-bubble-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-7-954f0694b5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\780-7803978_cute-speech-bubble-png-cute-green-speech-bubbles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-7-2743d8bbbc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-7-2743d8bbbc1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-7-ec4369be97.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-7-466b35aa58.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-fast-food-logo-png-image_5763171.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\144-1447919_transparent-corner-ribbon-png-corner-ribbon-png-transparente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Corner_Banner_Green_PNG_Clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-green-elegant-banner-frame-png-image_6590336.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1dsfafghjui765trgf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_649088106_dNidCj4QMhNAavuXXluy7JLMbjtGPGHo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_559045209_BUVgSo6M60WPht0331vQaDyErt4PjUPk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_559045228_304NjxgJnNBUHdrO6hyhzxx11rpwAS7M %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooking-border-with-cutlery-kitchen-utensils-hand-drawn-cutlery-place-for-text-vector-illustration-700-2151293845.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1339324933-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1339324933-612x6124.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitchen-tools-continuous-one-line-drawing-vector-32641276.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roze.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zeleni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\narandzasti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\narandzasti %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza-23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza-231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza-232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dd9dc9d83423bc037b511d73b29e6b801111111111111111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza-233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29273471.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green-spoon-food-logo-E82A50964F-seeklogo.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\green1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39673691.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39673692.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\76542441.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23036781.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-green-apple-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\66433621.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20820851.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15149351.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ef49e2aaf893ef4a8a5e248db6930007.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10823229.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10823283.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seamless-pattern-of-baking-doodle-cooking-elements-mixer-butter-flour-spoon-whisk-in-sketch-style-hand-drawn-illustration-isolated-on-white-background-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\isolated-seamless-fruit-pattern-with-green-pastel-apple-silhouettes-white-background-healthy-food-print-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\posters-fresh-pattern-with-lemons-full-fruits-and-slices-vitamin-background-seamless-vector-texture.jpg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\posters-fresh-pattern-with-lemons-full-fruits-and-slices-vitamin-background-seamless-vector-texture.jpg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seamless-pattern-of-baking-doodle-cooking-elements-mixer-butter-flour-spoon-whisk-in-sketch-style-hand-drawn-illustration-isolated-on-white-background-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\isolated-seamless-fruit-pattern-with-green-pastel-apple-silhouettes-white-background-healthy-food-print-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geometric-cute-citrus-fruit-seamless-pattern-isolated-fruits-endless-wallpaper_97843-4107.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10823229 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-exit-logout-icon-2861-thumb.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

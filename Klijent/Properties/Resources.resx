@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="istockphoto-1339324933-612x6124" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1339324933-612x6124.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apple1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apple1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif-7-ec4369be97" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif-7-ec4369be97.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif-7-466b35aa58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif-7-466b35aa58.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza-231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza-231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif-7-2743d8bbbc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif-7-2743d8bbbc1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="144-1447919_transparent-corner-ribbon-png-corner-ribbon-png-transparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\144-1447919_transparent-corner-ribbon-png-corner-ribbon-png-transparente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cooking-Recipe-PNG-Download-Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cooking-Recipe-PNG-Download-Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seamless-pattern-of-baking-doodle-cooking-elements-mixer-butter-flour-spoon-whisk-in-sketch-style-hand-drawn-illustration-isolated-on-white-background-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seamless-pattern-of-baking-doodle-cooking-elements-mixer-butter-flour-spoon-whisk-in-sketch-style-hand-drawn-illustration-isolated-on-white-background-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="isolated-seamless-fruit-pattern-with-green-pastel-apple-silhouettes-white-background-healthy-food-print-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\isolated-seamless-fruit-pattern-with-green-pastel-apple-silhouettes-white-background-healthy-food-print-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-green-chat-bubble-icon-png-image_4754359" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-green-chat-bubble-icon-png-image_4754359.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif-7-954f0694b5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif-7-954f0694b5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-fresh-and-stylish-background-green-lines-background-green-background-pictures-fresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-fresh-and-stylish-background-green-lines-background-green-background-pictures-fresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20820851" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20820851.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="780-7803978_cute-speech-bubble-png-cute-green-speech-bubbles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\780-7803978_cute-speech-bubble-png-cute-green-speech-bubbles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="107-1070273_green-background-vector-png-portable-network-graphics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\107-1070273_green-background-vector-png-portable-network-graphics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif-7-2743d8bbbc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif-7-2743d8bbbc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="39673691" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\39673691.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-green-apple-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-green-apple-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza-232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza-232.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="narandzasti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\narandzasti.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="output-onlinepngtools (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\output-onlinepngtools (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-fast-food-logo-png-image_5763171" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-fast-food-logo-png-image_5763171.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fashionable-business-card-design-5a3bcec5d5ed14.0890598015138689978763" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fashionable-business-card-design-5a3bcec5d5ed14.0890598015138689978763.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngtree-green-elegant-banner-frame-png-image_6590336" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-green-elegant-banner-frame-png-image_6590336.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="360_F_559045209_BUVgSo6M60WPht0331vQaDyErt4PjUPk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_559045209_BUVgSo6M60WPht0331vQaDyErt4PjUPk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="89-893814_green-clipart-speech-bubble-green-speech-bubble-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\89-893814_green-clipart-speech-bubble-green-speech-bubble-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="29273471" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\29273471.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="360_F_649088106_dNidCj4QMhNAavuXXluy7JLMbjtGPGHo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_649088106_dNidCj4QMhNAavuXXluy7JLMbjtGPGHo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10823229" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10823229.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="360_F_559045228_304NjxgJnNBUHdrO6hyhzxx11rpwAS7M (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_559045228_304NjxgJnNBUHdrO6hyhzxx11rpwAS7M (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1339324933-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1339324933-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="seamless-pattern-of-baking-doodle-cooking-elements-mixer-butter-flour-spoon-whisk-in-sketch-style-hand-drawn-illustration-isolated-on-white-background-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\seamless-pattern-of-baking-doodle-cooking-elements-mixer-butter-flour-spoon-whisk-in-sketch-style-hand-drawn-illustration-isolated-on-white-background-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10823229 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10823229 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="isolated-seamless-fruit-pattern-with-green-pastel-apple-silhouettes-white-background-healthy-food-print-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\isolated-seamless-fruit-pattern-with-green-pastel-apple-silhouettes-white-background-healthy-food-print-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="geometric-cute-citrus-fruit-seamless-pattern-isolated-fruits-endless-wallpaper_97843-4107" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\geometric-cute-citrus-fruit-seamless-pattern-isolated-fruits-endless-wallpaper_97843-4107.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="76542441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\76542441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="posters-fresh-pattern-with-lemons-full-fruits-and-slices-vitamin-background-seamless-vector-texture1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\posters-fresh-pattern-with-lemons-full-fruits-and-slices-vitamin-background-seamless-vector-texture.jpg1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kitchen-tools-continuous-one-line-drawing-vector-32641276" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kitchen-tools-continuous-one-line-drawing-vector-32641276.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="posters-fresh-pattern-with-lemons-full-fruits-and-slices-vitamin-background-seamless-vector-texture.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\posters-fresh-pattern-with-lemons-full-fruits-and-slices-vitamin-background-seamless-vector-texture.jpg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza-23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza-23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="39673692" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\39673692.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Corner_Banner_Green_PNG_Clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Corner_Banner_Green_PNG_Clipart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dd9dc9d83423bc037b511d73b29e6b801111111111111111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dd9dc9d83423bc037b511d73b29e6b801111111111111111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="narandzasti (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\narandzasti (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="66433621" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\66433621.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zeleni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zeleni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cooking-border-with-cutlery-kitchen-utensils-hand-drawn-cutlery-place-for-text-vector-illustration-700-2151293845" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cooking-border-with-cutlery-kitchen-utensils-hand-drawn-cutlery-place-for-text-vector-illustration-700-2151293845.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1dsfafghjui765trgf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1dsfafghjui765trgf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="23036781" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23036781.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pizza-233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pizza-233.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="roze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\roze.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ef49e2aaf893ef4a8a5e248db6930007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ef49e2aaf893ef4a8a5e248db6930007.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="green-spoon-food-logo-E82A50964F-seeklogo.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\green-spoon-food-logo-E82A50964F-seeklogo.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10823283" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10823283.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15149351" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15149351.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="free-exit-logout-icon-2861-thumb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\free-exit-logout-icon-2861-thumb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
